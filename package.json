@@ -1,0 +1,23 @@
+{
+  "name": "melnik_hw_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh-frontend-js-9/melnik_hw_5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gh-frontend-js-9/melnik_hw_5/issues"
+  },
+  "homepage": "https://github.com/gh-frontend-js-9/melnik_hw_5#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

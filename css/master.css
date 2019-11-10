@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url("../img/BG.jpg");
+  background-size: 2000px 1000px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  max-height: 748px;
+  background-size: 100%;
+}
+
+.header {
+  height: 70px;
+}
+
+.header__logo {
+  background-color: #fa5c65;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-size: 20px;
+  width: 140px;
+  float: left;
+  padding: 40px 0 10px 0;
+  text-align: center;
+}
+
+.header__logo-tochka {
+  color: #314a5b;
+  margin-top: 50px;
+}
+
+.header__navigation {
+  margin: 0;
+  padding: 0;
+  float: right;
+  height: 70px;
+}
+
+.header__navigation .header__nav-Item {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.header__navigation .header__nav-Item:hover {
+  color: #fa5c65;
+  transition: .2s;
+}
+
+.header .header__nav-Item {
+  color: #263742;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.about {
+  padding-top: 20%;
+}
+
+.about__slogan {
+  text-transform: uppercase;
+  color: #263742;
+  font-size: 46px;
+}
+
+.about__slogan-tochka {
+  font-size: 46px;
+  color: #fa5c65;
+}
+
+.about__fraza {
+  color: #263742;
+  font-size: 20px;
+}
+
+.about .btn {
+  text-transform: uppercase;
+  background-color: #fa5c65;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 170px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.about .btn:hover {
+  background-color: #cf3e47;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.content {
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 890px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.card {
+  max-width: 30%;
+  min-width: 300px;
+}
+
+.card__name {
+  color: #263742;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.card__name-tochka {
+  color: #fa5c65;
+}
+
+.card-btn_more {
+  color: #fa5c65;
+}
+
+.cards {
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.portfolio__info {
+  width: 50%;
+}
+
+.portfolio__img {
+  background-image: url("../img/mac.png");
+  min-width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.portfolio__text {
+  color: #9aa0ab;
+}
+
+.portfolio__name {
+  color: #314a5b;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.portfolio__name-tochka {
+  color: #fa5c65 !important;
+}
+
+.portfolio .span1 {
+  color: #314a5b;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.portfolio .spanRed {
+  color: #f0454c;
+  font-size: 14px;
+}
+
+.team__name {
+  color: #263742;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.team__name-tochka {
+  color: #fa5c65;
+}
+
+.team__desc {
+  color: #9aa0ab;
+}
+
+.team .name {
+  color: #314a5b;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.team .prof {
+  color: #f0454c;
+  font-size: 14px;
+}
+
+.team .desc {
+  color: #9aa0ab;
+}
+
+.team__btn-more {
+  color: #f0454c;
+  float: right;
+  font-weight: bold;
+}
+
+.team__photo {
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.team .row {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team .card-3 {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.team__text {
+  padding-left: 20px;
+}
+
+.avatar1 {
+  background-image: url("../img/p1.png");
+}
+
+.avatar2 {
+  background-image: url("../img/p2.png");
+}
+
+.avatar3 {
+  background-image: url("../img/p3.png");
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  color: #ccc;
+}
+
+.footer__text {
+  margin: 0;
+}
+
+.footer__icons .fab {
+  font-size: 15px;
+  margin-right: 5px;
+}
